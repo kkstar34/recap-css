@@ -1,0 +1,45 @@
+
+
+/* class */
+.title{
+    color : red;
+}
+
+
+/* type */
+p{
+    color: green;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* identifiant */
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.parent{
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  
+    
+}
+
+.child{
+    display: flex;
+    height: 50px;
+    width: 50%;
+    justify-content: space-between;
+    align-items: end;
+    /* margin-top: 500px;
+    margin-left: 1400px; */
+
+
+}
